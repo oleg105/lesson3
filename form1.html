@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form action="google.com" method="get"">
+<form action="google.com" method="post" enctype="multipart/form-data">
 
     <label for="q">Поиск:</label>
     <input id="q" name="q" placeholder="введите строку">
@@ -45,6 +45,13 @@
     <br>
 
     <textarea name="text"></textarea>
+    <br>
+
+    <select name="city">
+        <option>Днепр</option>
+        <option>Харьков</option>
+        <option>Запорожье</option>
+    </select>
     <br>
 
     <input type="submit" value="Отправить">
